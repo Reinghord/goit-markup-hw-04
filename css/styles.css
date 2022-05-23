@@ -248,6 +248,33 @@ ul {
   font-size: 14px;
   line-height: 1.71;
 }
+.flex-footer {
+  display: flex;
+  align-items: center;
+}
+.footer-join {
+  margin-left: 70px;
+}
+.footer-join > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+.ul-join {
+  display: flex;
+  list-style: none;
+}
+.ul-join > li:not(:first-child) {
+  margin-left: 10px;
+}
+.ul-join > li {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 75%;
+  padding: 22px;
+}
 /* Portfolio - Categories */
 .list-categories {
   list-style: none;
