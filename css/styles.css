@@ -76,7 +76,15 @@ ul {
   margin-left: auto;
 }
 .contacts-list > li:not(:first-child) {
-  margin-left: 50px;
+  margin-left: 30px;
+}
+.icon-header {
+  margin-right: 10px;
+  fill: currentColor;
+}
+.contacts-list a {
+  display: flex;
+  align-items: center;
 }
 /* Index - Section 1 (Head) */
 .head {
@@ -149,6 +157,13 @@ ul {
 
   margin-bottom: 10px;
 }
+.feature-icon {
+  display: block;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
 /* Index - Section 3 (Our work) */
 .section.work {
   padding-top: 0px;
@@ -198,6 +213,30 @@ ul {
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
 }
+.ul-social-team {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+  margin-top: 16px;
+  padding: 0 32px;
+}
+.ul-social-team > li:not(:first-child) {
+  margin-left: 10px;
+}
+.ul-social-team > li:hover {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
+.icon-team {
+  fill: #afb1b8;
+  padding: 12px;
+}
+.icon-team:hover {
+  fill: #ffffff;
+}
 /* Index - Section 5 (Loyal Customers) */
 .ul-customers {
   display: flex;
@@ -208,9 +247,20 @@ ul {
   margin-left: 30px;
 }
 .ul-customers > li {
+  width: 170px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.ul-customers > li:hover {
+  border-color: #2196f3;
+}
+.icon-customers {
+  fill: #afb1b8;
   padding: 16px 32px;
+}
+.icon-customers:hover {
+  fill: #2196f3;
 }
 /* Footer */
 .footer {
@@ -271,9 +321,20 @@ ul {
   margin-left: 10px;
 }
 .ul-join > li {
+  width: 44px;
+  height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 75%;
-  padding: 22px;
+  border-radius: 50%;
+}
+.ul-join > li:hover {
+  background-color: #2196f3;
+}
+.icon-join {
+  fill: #ffffff;
+  padding: 12px;
+}
+.icon-join:hover {
+  fill: #ffffff;
 }
 /* Portfolio - Categories */
 .list-categories {
