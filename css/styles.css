@@ -234,7 +234,8 @@ ul {
   fill: #afb1b8;
   padding: 12px;
 }
-.icon-team:hover {
+.icon-team:hover,
+.icon-team:focus {
   fill: #ffffff;
 }
 /* Index - Section 5 (Loyal Customers) */
@@ -259,7 +260,8 @@ ul {
   fill: #afb1b8;
   padding: 16px 32px;
 }
-.icon-customers:hover {
+.icon-customers:hover,
+.icon-customers:focus {
   fill: #2196f3;
 }
 /* Footer */
@@ -333,7 +335,8 @@ ul {
   fill: #ffffff;
   padding: 12px;
 }
-.icon-join:hover {
+.icon-join:hover,
+.icon-join:focus {
   fill: #ffffff;
 }
 /* Portfolio - Categories */
@@ -377,6 +380,10 @@ ul {
   padding-bottom: 20px;
   margin-bottom: 30px;
   margin-left: 30px;
+}
+.list-projects > li:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .list-projects > li:nth-last-child(-n + 3) {
   margin-bottom: 0px;
