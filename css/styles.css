@@ -31,7 +31,7 @@ ul {
 .web {
   color: #2196f3;
 }
-.header-nav {
+.div-header {
   display: flex;
   align-items: center;
 }
@@ -299,6 +299,15 @@ ul {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+}
+.address > p {
+  margin-bottom: 9px;
+}
+.ul-footer {
+  list-style: none;
+}
+.ul-footer > li:not(:last-child) {
+  margin-bottom: 9px;
 }
 .flex-footer {
   display: flex;
