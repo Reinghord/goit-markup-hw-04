@@ -17,6 +17,9 @@ ul {
   padding-bottom: 94px;
 }
 /* Header */
+.header-nav {
+  margin-left: 93px;
+}
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -57,7 +60,6 @@ ul {
 }
 .list {
   display: flex;
-  margin-left: 93px;
 }
 .list-li:not(:last-child) {
   margin-right: 50px;
