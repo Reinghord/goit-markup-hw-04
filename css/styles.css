@@ -242,6 +242,9 @@ ul {
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
 }
+.section4-li img {
+  display: block;
+}
 .ul-social-team {
   display: flex;
   list-style: none;
@@ -430,6 +433,7 @@ ul {
   margin-left: 0px;
 }
 .list-projects img {
+  display: block;
   margin-bottom: 20px;
 }
 .projects-title {
@@ -437,6 +441,8 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 .projects-text {
   font-size: 16px;
