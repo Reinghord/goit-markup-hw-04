@@ -415,12 +415,6 @@ ul {
 .ul-join > li {
   width: 44px;
   height: 44px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.ul-join > li:hover,
-.ul-join > li:focus {
-  background-color: var(--colorSecondary);
 }
 .ul-join > li > a {
   width: 100%;
@@ -430,16 +424,13 @@ ul {
   align-items: center;
 
   border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .ul-join > li > a:hover,
 .ul-join > li > a:focus {
   background-color: var(--colorSecondary);
 }
 .icon-join {
-  fill: var(--svgColorSecondary);
-}
-.icon-join:hover,
-.icon-join:focus {
   fill: var(--svgColorSecondary);
 }
 /* Portfolio - Categories */
